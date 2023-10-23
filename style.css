@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body{
+    background-color: #afafaf;
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    display: flex;
+}
+
+.numbers-panels{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    padding: 10px;
+    height: 300px;
+}
